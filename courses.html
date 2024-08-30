@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
+	<script src="script.js" defer></script>	
+	<title>EduWeb</title>
+</head>
+<body onload="myZoomFunction()">
+	<header id="come-to-top">
+		<div class="particle"></div>
+		<div class="logo"><h1>EduWeb.</h1></div>
+		<ul class="nav-bar">
+			<a href="index.html"><li>Home</li></a>
+			<a href="courses.html"><li>Courses</li></a>
+			<a href="blog.html"><li>Blog</li></a>
+			<a href="about.html"><li>About Us</li></a>
+			<a href="contact.html"><li>Contact</li></a>
+		</ul>
+			<i class="fa-solid fa-xmark" id="closeMenu"></i>
+		<div class="login-div">
+			<a href="#"><div class="tff">Try Free Now</div></a>
+			<a href="#"><div class="login"></div></a>
+			<i class="fa-solid fa-bars" id="openMenu"></i>
+		</div>
+	</header>
+	<!-- ================================================== -->
+	<div class="course-div1" id="main-course-div">
+		<div class="course-logo-img"></div>
+		<div class="course-txt">
+			Learn Your <br>Favourite Course <br> From Online
+		</div>	
+	</div>
+	<!-- ================================================== -->
+	<div class="course-div2">
+		<div class="course-details">
+			<div class="course-logo react"></div>
+			<div class="course-nam">REACT</div>
+			<div class="course-trainer">
+				<div class="ct-img"></div>
+				<p>Cooming Soon</p>
+			</div>
+			<div class="course-duration">120 Videos (200Hours)</div>
+			<div class="course-price">Life Time Access <span>_ _ 9/-</span></div>
+			<a href="#"><div class="enroll">ENROLL NOW!</div></a>
+		</div>
+		<div class="course-details">
+			<div class="course-logo mern"></div>
+			<div class="course-nam">MERN</div>
+			<div class="course-trainer">
+				<div class="ct-img"></div>
+			<p>Available</p>
+			</div>
+			<div class="course-duration">150 Videos (~300Hours)</div>
+			<div class="course-price">Life Time Access <span>Free</span></div>
+			<a href="#"><div class="enroll" id="quickEnroll">ENROLL NOW!</div></a>
+		</div>
+		<div class="course-details">
+			<div class="course-logo datas"></div>
+			<div class="course-nam">Data Science</div>
+			<div class="course-trainer">
+				<div class="ct-img"></div>
+				<p>Cooming Soon</p>
+			</div>
+			<div class="course-duration">120 Videos (200Hours)</div>
+			<div class="course-price">Life Time Access <span>_ _ 9/-</span></div>
+			<a href="#"><div class="enroll">ENROLL NOW!</div></a>
+		</div>
+		<div class="course-details">
+			<div class="course-logo aws"></div>
+			<div class="course-nam">AWS</div>
+			<div class="course-trainer">
+				<div class="ct-img"></div>
+				<p>Cooming Soon</p>
+			</div>
+			<div class="course-duration">120 Videos (200Hours)</div>
+			<div class="course-price">Life Time Access <span>_ _ 9/-</span></div>
+			<a href="#"><div class="enroll">ENROLL NOW!</div></a>
+		</div>
+		<div class="course-details">
+			<div class="course-logo dsa"></div>
+			<div class="course-nam">DSA</div>
+			<div class="course-trainer">
+				<div class="ct-img"></div>
+				<p>Cooming Soon</p>
+			</div>
+			<div class="course-duration">120 Videos (200Hours)</div>
+			<div class="course-price">Life Time Access <span>_ _ 9/-</span></div>
+			<a href="#"><div class="enroll">ENROLL NOW!</div></a>
+		</div>
+		<div class="course-details">
+			<div class="course-logo photo"></div>
+			<div class="course-nam">Photography</div>
+			<div class="course-trainer">
+				<div class="ct-img"></div>
+				<p>Cooming Soon</p>
+			</div>
+			<div class="course-duration">120 Videos (200Hours)</div>
+			<div class="course-price">Life Time Access <span>_ _ 9/-</span></div>
+			<a href="#"><div class="enroll">ENROLL NOW!</div></a>
+		</div>
+	</div>
+	<!-- ================================================== -->
+	<div class="subs-div">
+			<h1>Subscribe our Newsletter & Get <br>every updates.</h1>
+			<div class="get-email">
+				<input type="email" placeholder="Write Your E-mail ">
+				<a href="#"><div class="sub-btn">SUBSCRIBE NOW</div></a>
+			</div>
+	</div>
+	<!-- =============================================================== -->
+	<footer>
+		<div class="footer-div">
+			<div class="footer-sub-div">
+				<h1>EduWeb.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nihil autem quis, odio facilis inventore assumenda eligendi voluptatum veniam beatae esse, aperiam necessitatibus architecto quasi.</p>
+				<div class="footer-soc-icon-div">
+					<a href="#">
+						<div class="footer-soc-icon">
+							<i class="fa-brands fa-facebook-f"></i>		
+						</div>
+					</a>
+					<a href="#">
+						<div class="footer-soc-icon">
+							<i class="fa-brands fa-twitter"></i>
+						</div>
+					</a>
+					<a href="#">
+						<div class="footer-soc-icon">
+							<i class="fa-brands fa-linkedin-in"></i>
+						</div>
+					</a>
+					<a href="#">
+						<div class="footer-soc-icon">
+							<i class="fa-brands fa-google-plus-g"></i>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="footer-sub-divs">
+				<h1>CONTACT US</h1>
+				<ul>
+					<a href="#"><li>amadermail@gmail.com</li></a>
+					<a href="#"><li>+916295997568</li></a>
+					<a href="condition.html"><li>Terms & Conditions</li></a>
+					<a href="privacy.html"><li>Privacy Policy</li></a>
+					<a href="contact.html"><li>Contacts</li></a>
+					<a href="#"><li>Our Careers</li></a>
+				</ul>
+			</div>
+			<div class="footer-sub-divs">
+				<h1>QUICK LINKS</h1>
+				<ul>
+					<a href="about.html"><li>About US</li></a>
+					<a href="index.html"><li>Explore Pages</li></a>
+					<a href="#"><li>Our Services</li></a>
+					<a href="#"><li>Destinations</li></a>
+				</ul>
+			</div>
+			<div class="footer-sub-divs">
+				<h1>FEATURES</h1>
+				<ul>
+					<a href="index.html"><li>Home Page</li></a>
+					<a href="#"><li>Testimonials</li></a>
+					<a href="#"><li>Latest News</li></a>
+					<a href="https://wa.me/6295997568"><li>Help Center</li></a>
+				</ul>
+			</div>
+		</div>
+		<div class="end-div">
+			<h1>Copyright@ 2021 <span><a href="#">EduWeb</a></span>. All Rights Reserved</h1>
+		</div>
+	</footer>
+	<!-- =============================================================== -->
+	<a href="#main-course-div"><div class="go-to-top"><i class="fa-solid fa-angles-up"></i></div></a>
+	<!-- =============================================================== -->
+	
+	<div class="login-page" id="log-in">
+		<div class="close-login"><i class="fa-solid fa-xmark"></i></div>
+		<form action="" class="login-form">
+			<h1>Login</h1>
+			<input type="text" id="uname" placeholder="Username">
+			<input type="password" id="pword" placeholder="Password">
+			<input type="submit" class="submit" value="Login">
+			<div class="extra-lins">
+				<a href="#"><div class="forget_password">Forget Password?</div></a>
+				<a href="#" class="go_reg"><div class="reg_now">Register Now</div></a>
+			</div>
+		</form> 
+	</div>
+	<!-- =============================================================== -->
+	<div id="sign_up">
+		<div class="closesignup"><i class="fa-solid fa-xmark"></i></div>
+		<form action="" class="signup-form">
+			<h1>Sign Up</h1>
+			<input type="text" id="fname" placeholder="First Name" required>
+			<input type="text" id="lname" placeholder="Last Name" required>
+			<input type="number" id="pnumber" placeholder="Phone Number" required>
+			<input type="email" id="uname" placeholder="Email" required>
+			<input type="password" id="pword" placeholder="Password" required>
+			<input type="password" id="pword" placeholder="Confirm Password" required>
+			<input type="submit" class="submit" value="Sign Up">
+			<div class="extra-lins">
+				<a href="#" class="go2login">Already Register? Sing in Now</a>
+			</div>
+		</form> 
+	</div>
+	<!-- =============================================================== -->
+</body>
+</script>
+</html>

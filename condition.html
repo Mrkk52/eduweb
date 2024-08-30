@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Terms & Conditions</title>
+</head>
+<style>
+	body{
+		height: 100vh;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: black;
+		overflow: hidden;
+		flex-direction: column;
+		overflow: hidden;
+	}
+	.main-div{
+		height: 100%;
+		padding-top: 100px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	h1{
+		color: white;
+	}
+	.meme{
+		height: 100%;
+		width: 100%;
+		background-image: url(meme/still-in-good-condition-shane-luis.gif);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	@media (max-width: 500px){
+		.main-div{
+			height: 70%;
+		}
+		.meme{
+			background-size: 90%;
+		}
+	}
+</style>
+<body>
+	<div class="main-div">
+		<h1>Terms & Conditions</h1>
+		<div class="meme"></div>
+	</div>
+</body>
+</html>
