@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="classroom.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.all.min.js"></script>
+	<title>ClassRoom</title>
+</head>
+<body>
+	<div class="main-ttl-div">Welcome !</div>
+<!-- ======================================================== -->
+<!-- ======================================================== -->
+	<!-- <h3 class="heading">HTML</h3> -->
+	<div class="nav-bar">
+		<div class="left-box">
+			<div class="logo">EduWeb.</div>
+			<a href="classroom.html" style="margin-left: -50px; font-size: 30px;">Classroom</a>
+		</div>
+		<div class="right-box">
+			<a href="#">
+				<div class="notification-bell">
+					<i class="fa-solid fa-bell"></i>
+				</div>
+			</a>
+			<p>Hello Developer !</p>
+			<a href="#"><div class="profile">
+			</div></a>
+		</div>
+	</div>
+	<div class="profile-div">
+		<div class="profile-main-div">
+			<ul>
+				<li><a href="#">Profile</a></li>
+				<li><a href="#">Update Profile</a></li>
+				<li><a href="#">Change Password</a></li>
+				<li id="signingOff"><a href="../index.html">Log Out</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="cls-div2">
+		<p>Full Stack MERN Developer Program</p>
+	</div>
+	<!-- ================================================================ -->
+	<!-- ================================================================ -->
+	<!-- ================================================================ -->
+	<!-- ================================================================ -->
+	<div class="module-items-div">
+		<a href="html.html">
+			<div class="module-itme">
+				<div class="mi-logo"></div>
+				<div class="mi-name">HTML</div>
+			</div>
+		</a>
+		<a href="css.html">
+			<div class="module-itme">
+				<div class="mi-logo"></div>
+				<div class="mi-name">CSS</div>
+			</div>
+		</a>
+		<a href="js.html">
+			<div class="module-itme">
+				<div class="mi-logo"></div>
+				<div class="mi-name">JavaScript</div>
+			</div>
+		</a>
+		<a href="prm.html">
+			<div class="module-itme">
+				<div class="mi-logo"></div>
+				<div class="mi-name">PRM</div>
+			</div>
+		</a>
+		<a href="dsa_b.html">
+			<div class="module-itme">
+				<div class="mi-logo"></div>
+				<div class="mi-name">DSA Basics</div>
+			</div>
+		</a>
+		<a href="mysql.html">
+			<div class="module-itme">
+				<div class="mi-logo"></div>
+				<div class="mi-name">MySQL</div>
+			</div>
+		</a>
+		<a href="mongodb.html">
+			<div class="module-itme">
+				<div class="mi-logo"></div>
+				<div class="mi-name">MongoDB</div>
+			</div>
+		</a>
+		<a href="node.html">
+			<div class="module-itme">
+				<div class="mi-logo"></div>
+				<div class="mi-name">NodeJS</div>
+			</div>
+		</a>
+		<a href="dsa_a.html">
+			<div class="module-itme">
+				<div class="mi-logo"></div>
+				<div class="mi-name">DSA Advanced</div>
+			</div>
+		</a>
+		<a href="react.html">
+			<div class="module-itme">
+				<div class="mi-logo"></div>
+				<div class="mi-name">React</div>
+			</div>
+		</a>
+	</div>
+</body>
+<script>
+	const opm = document.querySelector('.profile');
+		const pro_menu = document.querySelector('.profile-div');
+
+		opm.addEventListener('click',openProMenu);
+		pro_menu.addEventListener('click',closeProMenu);
+
+		function openProMenu(){
+			pro_menu.style.display="block";
+
+		}
+		function closeProMenu(){
+			pro_menu.style.display="none";
+
+		}
+</script>
+</html>
